@@ -86,7 +86,7 @@ export default function OurProducts() {
           <div className="flex gap-[21px] overflow-x-auto no-scrollbar flex-wrap justify-center w-full">
             {/* Cards for Products*/}
             {products.map((product, index) => (
-              <div className="bg-white group relative overflow-hidden w-[285px] md:w-[285px]" key={index}>
+              <div className="bg-white group relative overflow-hidden w-[285px] md:w-[285px] lg:w[285px]" key={index}>
                 {/* Image Container */}
                 <div className="w-full h-[301px]">
                   <div
